@@ -17,6 +17,14 @@ public class Pelicula {
         this.precio = precio;
     }
 
+    public Pelicula(String titulo, String director, int anio, String genero, float precio) {
+        this.titulo = titulo;
+        this.director = director;
+        this.anio = anio;
+        this.genero = genero;
+        this.precio = precio;
+    }
+
     public int getId() {
         return id;
     }
@@ -63,5 +71,17 @@ public class Pelicula {
 
     public void setPrecio(float precio) {
         this.precio = precio;
+    }
+
+    @Override
+    public String toString() {
+        return "Pelicula{" +
+                "id=" + id +
+                ", titulo='" + titulo + '\'' +
+                ", director='" + director + '\'' +
+                ", anio=" + anio +
+                ", genero='" + genero + '\'' +
+                ", precio=" + precio +
+                '}';
     }
 }

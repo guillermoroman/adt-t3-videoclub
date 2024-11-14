@@ -1,6 +1,9 @@
 package com.videoclub.dao;
 
 import java.sql.SQLException;
+import java.util.List;
+
+import com.videoclub.model.Pelicula;
 
 public interface PeliculaDAO {
     void insertarPelicula(Pelicula pelicula) throws SQLException;
