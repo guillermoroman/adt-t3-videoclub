@@ -81,6 +81,7 @@ class PrestamoDaoTest {
         assertTrue(exception.getMessage().contains("Saldo insuficiente"));
     }
 
+
     @Test
     void testObtenerPrestamosPorCliente() throws SQLException {
         // Registrar dos préstamos para el cliente

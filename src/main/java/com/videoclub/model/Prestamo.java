@@ -21,7 +21,7 @@ public class Prestamo {
         this.disponible = true;
     }
 
-    public Prestamo(int clienteId, int peliculaId, Date fechaPrestamo, Date fechaDevolucion) {
+    public Prestamo(int clienteId, int peliculaId, Date fechaPrestamo) {
         this.clienteId = clienteId;
         this.peliculaId = peliculaId;
         this.fechaPrestamo = fechaPrestamo;
